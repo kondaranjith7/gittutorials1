@@ -13,3 +13,5 @@ select player_name,count(1) as no_medals
 from cte
 group by player_name
 having count(distinct medal_type) =1and max(medal_type)= 'gold'
+
+this question is very important
